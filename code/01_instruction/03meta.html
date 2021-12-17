@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        meta主要用于设置网页中的一些源数据，源数据不是给用户看
+        常用属性：charset 指定字符集编码
+                 name 指定数据的名称，可以设置网站的关键字
+                 content 指定数据的内容
+
+                 keywords 表示网站的关键字，可以指定多个关键字，关键字间使用逗号隔开
+                 <meta name="keywords" content="购物,支付,双十一">
+
+                description 用于指定网站的描述
+                <meta name="description" content="京东JD.COM-专业的综合网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球数十万品牌商家，囊括家电、手机、电脑、服装、居家、母婴、美妆、个护、食品、生鲜等丰富品类，满足各种购物需求。">
+
+                title标签的内容会作为搜索结果的超链接上的文字显示
+    
+            -->
+    <meta charset="UTF-8">
+    <!-- 重定向3s后跳转到百度 -->
+    <!-- <meta http-equiv="refresh" content="3;URL=https://www.baidu.com"> -->
+    <meta name="keywords" content="购物,支付,双十一">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        在网页中编写的多个空格默认情况会被浏览器解析为一个空格
+        在HTML中，我们不能直接书写一些特殊符号
+          比如：多个连续的空格，比如字母两侧的大于和小于号
+
+        如果我们需要再网页中书写这些特殊的符号，则需要使用HTML中的实体（转义字符）
+          &实体的名字；
+             &nbsp;空格
+             &gt;大于号
+             &lt;小于号
+            &copy;版权符号
+        -->
+    <p>
+        今天&nbsp;&nbsp;&nbsp;&nbsp;天气真不错
+        
+    </p>
+    <p>
+        a&lt;b&gt;c
+    </p>
+</body>
+</html>
