@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .s1{
+            background-color: yellow;
+            width: 100px;
+            height: 100px;
+            /* 
+                行内元素的盒子模型：
+                    - 行内元素不支持设置高度和宽度
+                    - 行内元素可以设置padding，但是垂直方向padding不会影响页面的布局
+                    - 行内元素可以设置border，垂直方向的border不会影响页面的布局
+                    - 行内元素可以设置margin，垂直方向的margin不会影响布局
+            
+            */
+
+
+        }
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: #bfa;
+        }
+
+    </style>
+</head>
+<body>
+    <span class="s1">我是span</span>
+    <div class="box1"></div>
+</body>
+</html>
